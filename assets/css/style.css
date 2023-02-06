@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* sets background*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*sets the color, font family, and size of the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* sets the font size and decides the box type */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+
+}
+/*sets the color of the header text*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* set the location of the nav bar */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* sets the format for the nav links as well as the spacing between */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* sets font color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* sets font size */
+p {
+    font-size: 16px;
+}
+/* formatting for the hero image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* sets location of the img */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* sets location of the image */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* sets format for section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* creates the location for the benefits to fall */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    
+}
+/* font color for the benefits*/
+aside article {
+    margin-bottom: 32px;
+    color:#fffefe;
+}
+/* sets text in center for benefits */
+aside article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* format for the img's off to the side */
+aside article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* sets the formatting for the paragraphs in the benefits */
+section article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* keeps the images in line within the boxes */
+section article img{
+    max-height: 200px;
+}
+/* formats the larger text in the section */
+section article h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* formats the text at the bottom of the page */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* makes the "made by" text larger than the rest of the footer */
+.footer h2 {
+    font-size: 20px;
+}
